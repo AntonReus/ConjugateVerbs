@@ -1,0 +1,17 @@
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\ConjugateVerbs.exe.config
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\ConjugateVerbs.exe
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\ConjugateVerbs.pdb
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.csproj.AssemblyReference.cache
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.frmWelcome.resources
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.Properties.Resources.resources
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.csproj.GenerateResource.cache
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.csproj.CoreCompileInputs.cache
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.exe
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.pdb
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.frmPS.resources
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\LinqToExcel.dll
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\Remotion.Data.Linq.dll
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\Remotion.dll
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\Remotion.Interfaces.dll
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\bin\Debug\LinqToExcel.xml
+D:\Escuela\6to\Compiladores\2\Proyecto\ConjugateVerbs\ConjugateVerbs\ConjugateVerbs\obj\Debug\ConjugateVerbs.csproj.CopyComplete

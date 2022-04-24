@@ -8,25 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace ConjugateVerbs
 {
-    public partial class frmBienvenida : Form
+    public partial class frmWelcome : Form
     {
-        public frmBienvenida()
+        public frmWelcome()
         {
             InitializeComponent();
         }
-
         private void frmBienvenida_Load(object sender, EventArgs e)
         {
-
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             frmPS ps = new frmPS();
             ps.Show();
-
         }
     }
 }

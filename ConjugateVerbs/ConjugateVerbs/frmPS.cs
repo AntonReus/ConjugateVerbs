@@ -5,17 +5,16 @@ using System.Data;
 using System.Linq;
 
 
-namespace WindowsFormsApp1
+namespace ConjugateVerbs
 {
-   
     public partial class frmPS : Form
     {
         int errores = 0;
         int correct = 0;
-        int intentos = 0; 
+        int intentos = 0;
 
         string verbo;
-        string subjet; 
+        string subjet;
 
         public frmPS()
         {
@@ -30,7 +29,6 @@ namespace WindowsFormsApp1
         }
         public void Search_verb()
         {
-
             Random rdn = new Random();
             string id_verb = Convert.ToString(rdn.Next(1, 294));
 
@@ -49,7 +47,7 @@ namespace WindowsFormsApp1
 
                                  id_verb = row[0].Cast<string>(),
                                  Verb = row[1].Cast<string>(),
-              
+
                              }
 
                              select item).ToList();
@@ -63,7 +61,7 @@ namespace WindowsFormsApp1
 
                 id_verb = item.id_verb;
                 verbo = item.Verb;
-                
+
             }
         }
 
@@ -71,7 +69,7 @@ namespace WindowsFormsApp1
         {
 
             Random rdn = new Random();
-            string id_subjet = Convert.ToString(rdn.Next(1,5));
+            string id_subjet = Convert.ToString(rdn.Next(1, 5));
 
 
             //Ruta del Excel
@@ -147,10 +145,10 @@ namespace WindowsFormsApp1
 
             if (Isthird())
             {
-                switch(SVerb())
+                switch (SVerb())
                 {
                     case 2:
-                        if(txtConju.Text == "s")
+                        if (txtConju.Text == "s")
                         {
                             return true;
                         }
@@ -158,7 +156,7 @@ namespace WindowsFormsApp1
                         {
                             return false;
                         }
-               
+
                     case 3:
                         if (txtConju.Text == "es")
                         {
@@ -168,7 +166,7 @@ namespace WindowsFormsApp1
                         {
                             return false;
                         }
-                      
+
                     case 4:
                         if (txtConju.Text == "ies")
                         {
@@ -178,13 +176,13 @@ namespace WindowsFormsApp1
                         {
                             return false;
                         }
-                       
+
                 }
                 return false;
             }
             else
             {
-                if(txtConju.Text == "")
+                if (txtConju.Text == "")
                 {
                     return true;
                 }
@@ -193,13 +191,18 @@ namespace WindowsFormsApp1
                     return false;
                 }
             }
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
             
         }
-        private void btnCheck_Click(object sender, EventArgs e)
+
+        private void BtnCheck_Click(object sender, EventArgs e)
         {
             intentos++;
-            lblTotal.Text = Convert.ToString(intentos); 
-            if(Check())
+            lblTotal.Text = Convert.ToString(intentos);
+            if (Check())
             {
                 MessageBox.Show("Well done");
                 correct++;
@@ -210,14 +213,12 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Wrong");
                 errores++;
                 lblWrong.Text = Convert.ToString(errores);
-                
+
             }
 
             lblSentence.Text = sentences();
 
             txtConju.Clear();
-
         }
-
     }
 }
