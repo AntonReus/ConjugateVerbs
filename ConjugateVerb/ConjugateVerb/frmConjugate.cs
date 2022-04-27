@@ -35,9 +35,9 @@ namespace ConjugateVerb
         public void Search_Verb ()
         {
             Random rnd = new Random();
-            string id_verb = Convert.ToString(rnd.Next(1, 294));
+            string id_verb = Convert.ToString(rnd.Next(1,294));
 
-            string ruta = Application.StartupPath + "Verbos.xlsx";
+            string ruta = Application.StartupPath + "\\Verbos.xlsx";
 
             var book = new ExcelQueryFactory(ruta);
 
@@ -64,7 +64,7 @@ namespace ConjugateVerb
             Random rdn = new Random();
             string id_subject = Convert.ToString(rdn.Next(1, 5));
 
-            string ruta = Application.StartupPath + "Verbos.xlsx";
+            string ruta = Application.StartupPath + "\\Verbos.xlsx";
             
             var book = new ExcelQueryFactory (ruta);
 
